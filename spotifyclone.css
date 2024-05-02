@@ -1,0 +1,111 @@
+body{
+    background: #181818;
+    font-family: sans-serif;
+}
+.header{
+    background: #282828;
+    display: flex;
+    padding: 10px;
+    color: #aaaaaa;
+    align-items: center;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #181818;
+}
+.flow{
+    font-size: 20px;
+    margin: 0 10px;
+    color: #aaaaaa;
+   
+}
+.flow:hover{
+    color: white;
+}
+.search{
+    margin-left: 1%;
+}
+.search input{
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    background-color: white;
+    color: #181818;
+    outline: none;
+}
+.userside{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    flex-flow: row wrap;
+}
+.userside i{
+    font-size: 20px;
+    color: #aaaaaa;
+}
+.userside i:hover{
+    color: white;
+    cursor: pointer;
+}
+.userdetail{
+    display: flex;
+    margin-right: 5px;
+}
+img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 3px; 
+    position: relative;
+    top: 5px;
+}
+.userdetail p{
+    position: relative;
+    top: 7px;
+    font-size: 16px;
+}
+.useraction button{
+    background: none;
+    border: none;
+}
+.useraction i{
+    font-size: 20px;
+}
+.useraction .dropdown-menu{
+    background: #282828;
+    margin-top: 25px;
+    border-radius: 2px;
+    padding: 0;
+    border: none;
+}
+.useraction .dropdown-menu:before{
+    font-family: "Ionicons";
+    content: "";
+    position: absolute;
+    top: -30px;
+    right: 7px;
+    color: #282828;
+    font-size: 36px;
+}
+.useraction .dropdown-menu a{
+    color: #aaaaaa;
+    transition: all 0.2s ease;
+}
+.useraction .dropdown-menu a:hover{
+    background: none;
+    transition: all 0.2s ease;
+}
+.useraction .dropdown-menu li{
+    padding: 10px;
+    margin: 0;
+    transition: all 0.2s ease;
+}
+.useraction .dropdown-menu li:hover{
+    background: #aaaaaa;
+    transition: all 0.2s ease;
+}
+.useraction .dropdown-menu li:hover a{
+    color: #c8c8c8;
+    transition: all 0.2s ease;
+}
